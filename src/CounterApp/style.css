@@ -1,0 +1,22 @@
+.main{
+    background-color: chartreuse;
+    width: 320px;
+    padding: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+button{
+    margin-right: 30px;
+    
+    padding: 2%;
+    font-weight: 600;
+}
+span{
+    color: rgb(21, 0, 255);
+    font-weight: 900;
+}
+button:hover{
+    background-color: rgb(255, 51, 0);
+}
