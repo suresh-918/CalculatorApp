@@ -10,10 +10,8 @@ function Counter(){
     
 
     useEffect(()=>{
-        renderCount.current += 1;
+        renderCount.current += 1; // re-render count
         console.log(`renderCount : ${renderCount.current}`);
-        
-        
     })
 
     return (

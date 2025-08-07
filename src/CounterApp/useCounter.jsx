@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function useCounter(){
+function useCounter(){ // custom hook
     const[count,setCount] = useState(0);
 
     const increment = () =>{
